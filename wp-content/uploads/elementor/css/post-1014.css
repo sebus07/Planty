@@ -50,17 +50,20 @@
         height: 300px;
         width:  2px;
         background-color: white;
-        margin-right: 100px;
+        margin-right: 120px;
 }
-
-.wpcf7-form-controlwrap {
-  width: 500px;
-  border-radius: 200px;
-}
-
 
 .wpcf7-spinner{
     display: none;
+}
+
+.form-column .half-width{
+    border-radius: 100px;
+}
+
+label {
+  font-size: 150%;
+  border-radius: 30px;
 }
 
 @media only screen and (max-width: 930px) {
