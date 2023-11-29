@@ -1,9 +1,9 @@
 === Royal Elementor Addons and Templates ===
 Contributors: WP Royal, rubeushagrid13, cyberpinky, elementoraddonswpr, ggedenidze1982, wprduke
 Tags: elementor, elementor templates, elementor addons, widgets for elementor, elementor widgets, elementor mega menu, elementor woocommerce builder, theme builder, header footer builder, elementor post grid, elementor product grid, addons for elementor
-Stable tag: 1.3.80
+Stable tag: 1.3.81
 Requires at least: 5.0
-Tested up to: 6.4
+Tested up to: 6.4.1
 Requires PHP: 5.6
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -152,6 +152,7 @@ and other custom branding related settings)
 - [**Magazine Blog v1**](https://demosites.royal-elementor-addons.com/magazine-blog-v1/?ref=rea-wpo-pp-details-tab)
 - [**Magazine Blog v2**](https://demosites.royal-elementor-addons.com/magazine-blog-v2/?ref=rea-wpo-pp-details-tab)
 - [**Magazine Blog v3**](https://demosites.royal-elementor-addons.com/magazine-blog-v3/?ref=rea-wpo-pp-details-tab)
+- [**Magazine Blog V4**](https://demosites.royal-elementor-addons.com/magazine-blog-v4/?ref=rea-wpo-pp-details-tab)
 - [**Food Blog**](https://demosites.royal-elementor-addons.com/food-blog-v1/?ref=rea-wpo-pp-details-tab)
 - [**Travel Blog**](https://demosites.royal-elementor-addons.com/travel-blog-v1/?ref=rea-wpo-pp-details-tab)
 - [**View All Demos**](https://demosites.royal-elementor-addons.com/elementor-templates/?ref=rea-wpo-pp-details-tab)
@@ -212,6 +213,10 @@ and other custom branding related settings)
 - [**Real Estate v2**](https://demosites.royal-elementor-addons.com/realestate-v2/?ref=rea-wpo-pp-details-tab)
 - [**Real Estate Agency v3**](https://demosites.royal-elementor-addons.com/realestate-v3/?ref=rea-wpo-pp-details-tab)
 - [**Job Listing Website**](https://demosites.royal-elementor-addons.com/job-listing-v1/?ref=rea-wpo-pp-details-tab)
+- [**Barber Shop Kit**](https://demosites.royal-elementor-addons.com/barbershop-v1/?ref=rea-wpo-pp-details-tab)
+- [**Dance Studio Kit**](https://demosites.royal-elementor-addons.com/dance-studio-v1/?ref=rea-wpo-pp-details-tab)
+- [**Magazine Blog V4**](https://demosites.royal-elementor-addons.com/magazine-blog-v4/?ref=rea-wpo-pp-details-tab)
+- [**Solar Energy Kit**](https://demosites.royal-elementor-addons.com/solar-energy-v1/?ref=rea-wpo-pp-details-tab)
 - [**Digital Marketing Agency v3**](https://demosites.royal-elementor-addons.com/digital-marketing-agency-v3/?ref=rea-wpo-pp-details-tab)
 - [**Digital Marketing Agency v2**](https://demosites.royal-elementor-addons.com/digital-marketing-agency-v2/?ref=rea-wpo-pp-details-tab)
 - [**Digital Agency Dark**](https://demosites.royal-elementor-addons.com/digital-agency-dark-v1/?ref=rea-wpo-pp-details-tab)
@@ -433,6 +438,15 @@ memory_limit 256M or more
 post_max_size 64M
 
 == Changelog ==
+= Royal Elementor Addons v1.3.81 - 2023-11-23 =
+* ADDED: Barber Shop Kit - [**Barber Shop Kit**](https://demosites.royal-elementor-addons.com/barbershop-v1/?ref=rea-wpo-pp-details-tab).
+* ADDED: Dance Studio Kit - [**Dance Studio Kit**](https://demosites.royal-elementor-addons.com/dance-studio-v1/?ref=rea-wpo-pp-details-tab).
+* ADDED: Magazine Blog V4 Kit - [**Magazine Blog V4**](https://demosites.royal-elementor-addons.com/magazine-blog-v4/?ref=rea-wpo-pp-details-tab).
+* ADDED: Solar Energy Kit - [**Solar Energy Kit**](https://demosites.royal-elementor-addons.com/solar-energy-v1/?ref=rea-wpo-pp-details-tab).
+* ADDED: FAQ, Hero Section and Slider Premade Sections in [**Royal Elementor Library**](https://prnt.sc/HV3jnnFbo8yg).
+* TWEAK: Minor tweaks for Elementor Loop Grid / Slider / Carousel Widget.
+* FIXED: Minor Bugs.
+
 = Royal Elementor Addons v1.3.80 - 2023-10-17 =
 * FIXED: Minor Bugs.
 

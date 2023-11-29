@@ -3,14 +3,13 @@ namespace WprAddons\Modules\InstagramFeed\Widgets;
 
 use Elementor\Widget_Base;
 use Elementor\Controls_Manager;
-use Elementor\Core\Responsive\Responsive;
 use Elementor\Group_Control_Border;
 use Elementor\Group_Control_Box_Shadow;
 use Elementor\Group_Control_Text_Shadow;
 use Elementor\Group_Control_Background;
 use Elementor\Group_Control_Typography;
-use Elementor\Core\Schemes\Typography;
-use Elementor\Core\Schemes\Color;
+use Elementor\Core\Kits\Documents\Tabs\Global_Typography;
+use Elementor\Core\Kits\Documents\Tabs\Global_Colors;
 use Elementor\Repeater;
 use Elementor\Group_Control_Image_Size;
 use Exception;
@@ -597,7 +596,7 @@ class Wpr_Instagram_Feed extends Widget_Base {
 			[
 				'type' => Controls_Manager::RAW_HTML,
 				// 'raw' => '<a class="wpr-authorize-instagram" href="https://www.instagram.com/oauth/authorize?client_id=819922469680194&redirect_uri=https://reastats.kinsta.cloud/token/social-network.php&scope=user_profile,user_media&response_type=code" target="popup">'. esc_html__( 'Authorize Instagram','wpr-addons' ) .'</a>',
-				'raw' => '<a class="wpr-authorize-instagram" href="https://youtu.be/EGwuqWK-s9E?t=56" target="popup">'. esc_html__( 'Get Access Token','wpr-addons' ) .'</a>',
+				'raw' => '<a class="wpr-authorize-instagram" href="https://www.instagram.com/oauth/authorize?client_id=1551600955281199&redirect_uri=https://reastats.kinsta.cloud/token/social-network.php&scope=user_profile,user_media&response_type=code" target="popup">'. esc_html__( 'Authorize Instagram','wpr-addons' ) .'</a>',
 				// 'content_classes' => 'elementor-panel-alert elementor-panel-alert-info',
 			]
 		);
@@ -2727,7 +2726,6 @@ class Wpr_Instagram_Feed extends Widget_Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name'     => 'title_typography',
-				'scheme' => Typography::TYPOGRAPHY_3,
 				'selector' => '{{WRAPPER}} .wpr-insta-feed-item-username a',
 				'fields_options' => [
 					'typography' => [
@@ -2880,7 +2878,6 @@ class Wpr_Instagram_Feed extends Widget_Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name'     => 'caption_typography',
-				'scheme' => Typography::TYPOGRAPHY_3,
 				'selector' => '{{WRAPPER}} .wpr-insta-feed-item-caption, {{WRAPPER}} .wpr-insta-feed-item-caption p, {{WRAPPER}} .wpr-insta-feed-item-caption figcaption',
 				'fields_options' => [
 					'typography' => [
@@ -3102,7 +3099,6 @@ class Wpr_Instagram_Feed extends Widget_Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name'     => 'date_typography',
-				'scheme' => Typography::TYPOGRAPHY_3,
 				'selector' => '{{WRAPPER}} .wpr-insta-feed-item-date'
 			]
 		);
@@ -3383,7 +3379,6 @@ class Wpr_Instagram_Feed extends Widget_Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name'     => 'icon_typography',
-				'scheme' => Typography::TYPOGRAPHY_3,
 				'selector' => '{{WRAPPER}} .wpr-insta-feed-item-icon'
 			]
 		);
@@ -3656,7 +3651,6 @@ class Wpr_Instagram_Feed extends Widget_Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name'     => 'lightbox_typography',
-				'scheme' => Typography::TYPOGRAPHY_3,
 				'selector' => '{{WRAPPER}} .wpr-insta-feed-item-lightbox'
 			]
 		);
@@ -3921,7 +3915,6 @@ class Wpr_Instagram_Feed extends Widget_Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name' => 'button_typography',
-				'scheme' => Typography::TYPOGRAPHY_3,
 				'selector' => '{{WRAPPER}} .wpr-instagram-follow-btn',
 				'separator' => 'before',
 			]
@@ -4468,7 +4461,6 @@ class Wpr_Instagram_Feed extends Widget_Base {
 			[
 				'name' => 'cs_pag_fraction_typography',
 				'label' => __( 'Typography', 'wpr-addons' ),
-				'scheme' => Typography::TYPOGRAPHY_3,
 				'selector' => '{{WRAPPER}}.wpr-insta-feed-layout-carousel .swiper-pagination-fraction',
 				'fields_options' => [
 					'typography' => [
@@ -4698,7 +4690,6 @@ class Wpr_Instagram_Feed extends Widget_Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name'     => 'pagination_typography',
-				'scheme' => Typography::TYPOGRAPHY_3,
 				'selector' => '{{WRAPPER}} .wpr-grid-pagination, {{WRAPPER}} .wpr-grid-pagination button'
 			]
 		);
@@ -5518,7 +5509,7 @@ class Wpr_Instagram_Feed extends Widget_Base {
 
 		if ( '' === $access_token ) {
 			if ( current_user_can('administrator') ) {
-				echo '<p class="wpr-token-missing">'. esc_html__('Please insert Access Token and Expiry Date in associated fields', 'wpr-addons') .'</p>';
+				echo '<p class="wpr-token-missing">'. esc_html__('Please click on the Authorize Instagram button to get instagram access token and expiry date!', 'wpr-addons') .'</p>';
 			}
 			return;
 		}
