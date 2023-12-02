@@ -1,6 +1,6 @@
 # Planty
-# projet_6
-# screenshot.png
-![Planty](themes/planty/screenshot.png)
+# projet_6 OpenClassroom
 
-![Planty](themes/planty/planty.png)
+![Planty](/wp-content/themes/planty/screenshot.png)
+
+![Planty](/wp-content/themes/planty/planty.png)
