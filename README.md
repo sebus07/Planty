@@ -22,4 +22,4 @@
 ![Planty](/wp-content/themes/planty/respcont.png) 
 
 # page pour commander
-![Planty](/wp-content/themes/planty/respprin.png) 
+![Planty](/wp-content/themes/planty/respcomm.png) 
